@@ -1,0 +1,16 @@
+_schema-version: "3.2"
+ID: testxsjs
+version: 0.0.1
+modules:
+  - name: testxsjs
+    type: nodejs
+    path: .
+    parameters:
+      buildpack: nodejs_buildpack
+      disk-quota: 1000M
+      memory: 256M
+build-parameters:
+  before-all:
+    - builder: custom
+      commands:
+        - npm install

@@ -1,0 +1,23 @@
+{
+	"VCAP_SERVICES": {
+		"user-provided": [
+			{
+				"label": "user-provided",
+				"name": "EXTERNAL_HTTP",
+				"credentials": {
+					"description": "Test HTTP Dest Node.js",
+					"host": "www.loc.gov",
+					"port": "80",
+                    "proxyType" : "none",
+                    "proxyHost" : "proxy",
+                    "proxyPort" : 8080,
+                    "authType" : "none",
+                    "timeout" : 0
+
+				},
+				"syslog_drain_url": null,
+				"volume_mounts": []
+			}
+		]
+	}
+}
