@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@sap/xsenv": "^3.1.1",
-    "@sap/xsjs": "^6.4.1"
+    "@sap/xsjs": "^6.4.1",
+    "request": "^2.88.2"
   }
 }
